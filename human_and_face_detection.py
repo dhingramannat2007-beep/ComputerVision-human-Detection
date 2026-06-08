@@ -110,7 +110,7 @@ def main():
         print(
             "[INFO] No known_faces database found (or empty). Will label as Human 1, Human 2, ...")
 
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture("/Users/mannat/Downloads/14445443_1920_1080_30fps.mp4")
     if not cap.isOpened():
         raise RuntimeError("Could not open webcam.")
 
